@@ -1,0 +1,58 @@
+[
+  {
+    "email": "admin@gmail.com",
+    "password": "Admin1234@",
+    "username": "admin",
+    "name": "Homer",
+    "surname": "Simpson",
+    "age": "36",
+    "gender": "male",
+    "country": "United States",
+    "city": "Springfield",
+    "purpose": "business"
+  },
+  {
+    "email": "eric.rand66@gmail.com",
+    "password": "Asdfg12345@",
+    "username": "ericrand",
+    "name": "Eric",
+    "surname": "Rand",
+    "age": "20",
+    "gender": "male",
+    "country": "Estonia",
+    "city": "Tallinn",
+    "purpose": "friendship"
+  },
+  {
+    "email": "Sannu@gmail.com",
+    "password": "Batman@69",
+    "username": "KiisuMiisu",
+    "name": "Sandra",
+    "surname": "Puu",
+    "age": "28",
+    "gender": "female",
+    "country": "Estonia",
+    "city": "Tallinn",
+    "purpose": "relationship"
+  },
+  {
+    "email": "michael.smith456@mail.com",
+    "password": "SecurePass8673#",
+    "username": "user789",
+    "name": "Michael",
+    "surname": "Smith",
+    "age": "32",
+    "gender": "male",
+    "country": "Canada",
+    "city": "Toronto",
+    "purpose": "business"
+  },
+  {"name":"Valeria","surname":"Corkhill","email":"vcorkhill0@1und1.de","gender":"male","country":"Estonia","city":"Tallinn","password":"qT8+?.tM'XJbke","purpose":"friendship","age":21,"username":"vcorkhill0"},
+    {"name":"Maybelle","surname":"O'Shavlan","email":"moshavlan1@alexa.com","gender":"male","country":"Estonia","city":"Jõhvi","password":"xB0'XPDC(5lw","purpose":"friendship","age":90,"username":"moshavlan1"},
+    {"name":"Bucky","surname":"Presdie","email":"bpresdie2@cmu.edu","gender":"other","country":"Estonia","city":"Kiviõli","password":"fZ2%uf5tj","purpose":"relationship","age":69,"username":"bpresdie2"},
+    {"name":"Dew","surname":"Adshead","email":"dadshead3@google.co.uk","gender":"female","country":"Estonia","city":"Järve","password":"eY8@,`U/","purpose":"business","age":67,"username":"dadshead3"},
+    {"name":"Cheri","surname":"Mathevet","email":"cmathevet4@newsvine.com","gender":"female","country":"Estonia","city":"Kohtla-Järve","password":"vZ5&woy\"\\gdpfn9Q","purpose":"relationship","age":66,"username":"cmathevet4"},
+    {"name":"Annecorinne","surname":"Mion","email":"amion5@w3.org","gender":"female","country":"Estonia","city":"Tallinn","password":"bP9+(Tu8","purpose":"business","age":87,"username":"amion5"},
+    {"name":"Hale","surname":"Duddle","email":"hduddle6@parallels.com","gender":"other","country":"Estonia","city":"Kehtna","password":"zI0`G`EyO","purpose":"friendship","age":35,"username":"hduddle6"},
+    {"name":"Kerrill","surname":"Silverston","email":"ksilverston7@cargocollective.com","gender":"other","country":"Estonia","city":"Kehtna","password":"yW8~YVaQ_t'\\","purpose":"relationship","age":89,"username":"ksilverston7"},
+    {"name":"Dara","surname":"Malyj","email":"dmalyj8@slashdot.org","gender":"other","country":"Estonia","city":"Järve","password":"gV8+D5#JT|.(","purpose":"friendship","age":30,"username":"dmalyj8"}]

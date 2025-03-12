@@ -1,0 +1,155 @@
+p, textarea, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.profileMain {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 7vh;
+}
+
+.photoInfoContainer {
+    display: flex;
+}
+
+.photoContainer {
+    display: flex;
+    width: 30vw;
+    height: 30vw;
+    position: relative;
+}
+
+.photo {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 4vh;
+}
+.editPfp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4vh;
+}
+.fileInput {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4vh;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 5vw;
+}
+
+.profileInfo h2 {
+    font-size: 48px;
+}
+
+.profileContent {
+    display: flex;
+    flex-grow: 1;
+}
+
+.labels{
+    display:grid;
+    grid-auto-rows: 1fr;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 1em;
+}
+
+.inputs{
+    display:grid;
+    grid-auto-rows: 1fr;
+    font-weight: 200;
+    margin-top: 1em;
+    font-size: 24px;
+    margin-left: 1em;
+}
+.redInput{
+    border: 1px solid red;
+}
+
+.descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.descriptionContainer h2 {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.textareaWrapper {
+    display: flex;
+    flex-grow: 1;
+}
+.textareaWrapper textarea {
+    width: 80%;
+    height: 100%;
+    border: none;
+    resize: none;
+    padding: 1vh;
+    border-radius: 4px;
+    font-size: 1.5em;
+    box-sizing: border-box;
+}
+.textareaWrapper p {
+    width: 80%;
+    height: 100%;
+    border: none;
+    resize: none;
+    padding: 1vh;
+    border-radius: 4px;
+    font-size: 1.5em;
+    box-sizing: border-box;
+}
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.button {
+    height: 25%;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .photoInfoContainer {
+        flex-direction: column;
+    }
+
+    .profileMain {
+        overflow-y: auto;
+        flex-grow: 0;
+    }
+
+    .photoContainer {
+        width: 100%;
+        height: auto;
+    }
+
+    .profileInfo {
+        margin-left: 0;
+        margin-top: 2em;
+    }
+
+    .descriptionContainer {
+        margin-top: 2em;
+        flex-grow: 0;
+    }
+}

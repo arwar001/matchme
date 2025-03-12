@@ -1,0 +1,36 @@
+.registered {
+  color: green;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    width: clamp(300px, 30vw, 600px);
+    height: 100vh;
+}
+
+.input{
+    width: 100%;
+    height: clamp(30px, 4vh, 600px);
+    margin: 0 0 clamp(10px, 2vh, 600px) 0;
+    padding: 0 0 0 5px;
+    box-sizing: border-box;
+}
+.title{
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+
+}
+.button{
+    height: clamp(20px, 4vh, 600px);
+    width: 25%;
+    margin: 0 0 10px 0;
+    padding: 0;
+}

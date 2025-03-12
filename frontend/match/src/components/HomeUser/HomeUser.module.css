@@ -1,0 +1,113 @@
+
+span {
+    text-decoration: none;
+    color: inherit;
+}
+
+span:hover {
+    color: #4B72C2;
+    cursor: pointer;
+}
+
+
+.mainDiv {
+    display: flex;
+    min-height: 100vh;
+}
+
+.hamburger {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1000;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.navBar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: clamp(2rem, 15vh, 8rem) clamp(2rem, 8vh, 5rem);
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+}
+
+.bell {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    font-size: 2rem;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.notification {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: red;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2rem;
+    flex: 1;
+    padding: 3rem 0 3rem 0;
+    max-height: 18rem;
+}
+.selected {
+    color: #4B72C2;
+}
+
+.logoutButton {
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: #C24B4B;
+}
+
+.logoutButton:hover {
+    background-color: #c92828;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .navBar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        transition: transform 0.3s ease;
+        transform: translateX(-100%);
+        z-index: 999;
+    }
+    .hamburger {
+        display: block;
+    }
+    .navBarOpen {
+        transform: translateX(0);
+    }
+}

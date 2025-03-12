@@ -1,0 +1,56 @@
+.matchMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardMain{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.cardMain:hover {
+    transform: translateY(-10px);
+}
+
+.cardLowerDiv{
+    display: flex;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+
+.cardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+
+.cardInfo {
+    font-size: 24px;
+    font-weight: 200;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cardUpperInfo {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.age {
+    margin-left: 20px;
+}

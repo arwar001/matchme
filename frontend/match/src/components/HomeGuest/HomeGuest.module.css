@@ -1,0 +1,13 @@
+.background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: clamp(300px, 30vw, 600px);
+    gap: 10px;
+}

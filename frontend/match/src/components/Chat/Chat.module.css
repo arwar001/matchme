@@ -1,0 +1,94 @@
+.main{
+    flex-grow: 1;
+    height: 100vh;
+    padding: clamp(10px, 3vw, 100px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.messagebox{
+    display: flex;
+    border: 1px solid #3D3D3D;
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+    flex-grow: 1;
+    margin: 10px 0 10px 0;
+}
+.userMessage{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.friendMessage{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.userBubble{
+    background-color: #4B72C2;
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 3px;
+}
+.friendBubble{
+    background-color: #315931;
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 3px;
+}
+.senderName{
+    font-size: 12px;
+    color: #8C8C8C;
+    margin: 0 3px 0 3px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.input{
+    height: clamp(30px, 4vh, 600px);
+    flex-grow: 1;
+    padding: 0;
+}
+.submit{
+    width: clamp(35px, 7vh, 600px);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.loadMore{
+    font-size: 1rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.title{
+    height: clamp(50px, 5vh, 600px);
+    display: flex;
+    align-items: center;
+}
+.pfp{
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #f3ffc4;
+    border-radius: 50%;
+}
+.name{
+    margin-left: 10px;
+    font-size: clamp(20px, 2.5vh, 600px);
+    color: white;
+}

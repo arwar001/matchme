@@ -1,0 +1,109 @@
+.filterMain {
+    width: clamp(350px, 20vw, 600px);
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: clamp(2rem, 15vh, 8rem) clamp(2rem, 8vh, 5rem);
+    box-sizing: border-box;
+}
+
+.filterMain h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.filterOptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.filterOptions p {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.filterSelectMenu{
+    width: 80%;
+    height: 30px;
+    outline: none;
+}
+
+.ageRange {
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.ageRangeInput {
+    color: white;
+    width: 70px;
+    height: 30px;
+}
+
+.ageRangeInput::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.filterSubmitButton {
+    width: 200px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.radiusslider {
+    -webkit-appearance: none; /* Required for custom styling */
+    appearance: none;
+    width: 65%;
+    height: 1px;
+    background: #444;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Custom Thumb (Draggable Handle) */
+.radiusslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    cursor: grab;
+    border: 2px solid #333;
+}
+
+.radiusslider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    cursor: grab;
+    border: 2px solid #333;
+}
+
+.radiusbox{
+    width: 30%;
+    height: 1rem;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    box-sizing: border-box;
+}
+.unselected{
+    color: #7F7F7F;
+}
+.unselected > *{
+    color: white;
+}
